@@ -142,7 +142,7 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
+  <strong>Requirements:</strong> Participants must dispose of a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
 
@@ -173,9 +173,23 @@ special instructions.
 </ul>
 
 <p id="discord">
-  <strong>Discord server:</strong> We will use Discord to manage questions, general announcements and to match helpers with learners.  to The group etherpad to ask question or place commands can be found under this <a href="https://pad.carpentries.org/r-workshop">link</a>
+  <strong>Discord server:</strong> We will use Discord to manage questions, general announcements and to match helpers with learners.   
+  Please install the Discord application on your laptol/computer. The invite link to the server can be found under this <a href="https://discord.gg/C4cUZ95fbQ">link</a>  
 
-<br>
+  There are several channels that we will use:  
+  <ul>
+    <li>The <strong>#general</strong> channel is used for general announcements about the workshop (links, coffee breaks, etc).</li>
+    <li>The <strong>#helpdesk</strong> is a text channel where participants can ask questions.</li>
+    <li>The <strong>helpdesk-1</strong> is a voice channel where participants can ask questions to helper number 1 through video. Additional video channels called <strong>helpdesk-2, -3, etc.</strong> are available depending on the number of helpers.</li>
+    <li>Teachers have two private channels, one for text called <strong>#teacher-chat</strong> and one for video called <strong>teacher-coffee-room</strong>.</li>
+  </ul>
+
+  <br>
+
+  <img src="assets/img/discord_screenshot.png" width="800px">
+
+  <br>
+  <br>
 
 <iframe src="https://discord.com/widget?id=808365000833237022&theme=dark" width="700" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
