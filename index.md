@@ -25,7 +25,6 @@ eventbrite: "157455145579"          # optional: alphanumeric key for Eventbrite 
 <h1 id="general"><center>Introduction to Open Data Science with R.</center><br></h1>
 {% comment %}
 HEADER
-
 Edit the values in the block above to be appropriate for your workshop.
 If the value is not 'true', 'false', 'null', or a number, please use
 double quotation marks around the value, unless specified otherwise.
@@ -34,29 +33,10 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 
 
 
-{% comment %}
-For a workshop please delete the following block
-{% endcomment %}
-{% comment %}
-<div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to customize your
-own website. If you are running a self-organized workshop or have not put in a
-workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know
-about your workshop and our administrator may contact you if we need any extra
-information.
-</div>
-{% endcomment %}
 
-{% comment %}
-{% if page.carpentry != site.carpentry %}
-<div class="alert alert-warning">
-You specified <code>carpentry: {{page.carpentry}}</code> in <code>index.md</code> and
-<code>carpentry: {{site.carpentry}}</code> in <code>_config.yml</code>. Make sure you edit both files. After editing <code>_config.yml</code>, you need to run <code>make serve</code> again to 
-see the changes take effect locally.
-</div>
-{% endif %}
-{% endcomment %}
+
+
+
 
 {% comment %}
 EVENTBRITE
@@ -134,16 +114,12 @@ address.
 </p>
 {% endif %}
 
-<p id="rooms">
-  <strong>Rooms:</strong> Unfortunately we were signed to multiple rooms:
+<p id="Zoom">
+  <strong>Zoom links:</strong> Unfortunately we were signed to multiple rooms:
 </p>
 <ul>
-  <li>Wed. Nov 20 9:30 to 13:00 room A1.10</li>
-  <li>Thu. Nov 21 9:30 to 13:00 room D1.113</li>
-  <li>Thu. Nov 21 13:00 to 15:00 room B0.204</li>
-  <li>Thu. Nov 21 15:00 to 17:00 room B0.207</li>
-  <li>Fri. Nov 22 9:30 to 13:00 room B0.203</li>
-  <li>Fri. Nov 22 13:00 to 17:00 room B0.209</li>
+  <li>Monday 21 June 2021 from 9:30 to 17:00:  <a href="https://uva-live.zoom.us/j/85459905823">Zoom link day 1</a></li>
+  <li>Tuesday 22 June 2021 from 9:30 to 17:00: <a href="https://uva-live.zoom.us/j/82752578788">Zoom link day 2</a></li>
 <br>
 </ul>
 <p id="includes">
