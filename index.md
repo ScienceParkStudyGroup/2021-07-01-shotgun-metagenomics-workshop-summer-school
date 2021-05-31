@@ -2,10 +2,10 @@
 layout: workshop                # DON'T CHANGE THIS.
 carpentry: "dc"
 venue: "UvA Amsterdam"            # brief name of host site without address (e.g., "Euphoric State University")
-address: "Science park 904, Amsterdam"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "Online, Amsterdam UTC+1 (see Zoom links)"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "NL"                     # lowercase two-letter ISO country code such as "fr" 
 language: "English"               # lowercase two-letter ISO language code such as "fr"
-latlng: "52.354430,4.956300"      # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
+latlng: ""      # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
 humandate: "21-22 June 2021"      # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:30 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-06-21             # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
@@ -71,8 +71,6 @@ the pitch.
 
 <h3 id="general">Who are we</h3>
 
-
-
 {% if page.carpentry == "swc" %}
 {% include sc/intro.html %}
 {% elsif page.carpentry == "dc" %}
@@ -115,16 +113,14 @@ address.
 {% endif %}
 
 <p id="Zoom">
-  <strong>Zoom links:</strong> Unfortunately we were signed to multiple rooms:
+  <strong>Zoom links:</strong> the workshop will be fully online:
 </p>
 <ul>
   <li>Monday 21 June 2021 from 9:30 to 17:00:  <a href="https://uva-live.zoom.us/j/85459905823">Zoom link day 1</a></li>
   <li>Tuesday 22 June 2021 from 9:30 to 17:00: <a href="https://uva-live.zoom.us/j/82752578788">Zoom link day 2</a></li>
 <br>
 </ul>
-<p id="includes">
-  <strong>Included:</strong> Coffee and tea will be included, Lunch is <u>not</u> included.
-</p>
+
 
 
 {% comment %}
@@ -163,38 +159,26 @@ ACCESSIBILITY
 Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
-<p id="accessibility">
-  <strong>Accessibility:</strong> We are committed to making this workshop
-  accessible to everybody.
-  The workshop organizers have checked that:
-</p>
-<ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
-</ul>
-<p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  get in touch (using contact details below) and we will
-  attempt to provide them.
-</p>
+
 
 <p id="helpers">
   <strong>Helpers:</strong> Experts helping in the room.:
 </p>
 <ul>
-  <li>Wed. Nov 20 9:30 to 13:00 Tijs</li>
-  <li>Thu. Nov 21 9:30 to 13:00 Stacy, Tijs, Marc, Huub</li>
-  <li>Thu. Nov 21 13:00 to 17:00 Stacy, Zsófia, Marc, Huub</li>
-  <li>Fri. Nov 22 9:30 to 13:00 Stacy, Johannes, Marc/Tijs</li>
-  <li>Fri. Nov 22 13:00 to 17:00 Johannes, Tijs</li>
+  <li>Monday 21 June from 9:30 to 13:00: Tijs</li>
+  <li>Monday 21 June from 14:00 to 17:00: Marc</li>
+  <li>Tuesday 22 June from 9:30 to 13:00: Tijs</li>
+  <li>Tuesday 22 June from 14:00 to 17:00: Marc</li>
 <br>
 </ul>
 
-<p id="ethetpad">
-  <strong>Etherpad:</strong> The group etherpad to ask question or place commands can be found under this <a href="https://pad.carpentries.org/r-workshop">link</a>
+<p id="discord">
+  <strong>Discord server:</strong> We will use Discord to manage questions, general announcements and to match helpers with learners.  to The group etherpad to ask question or place commands can be found under this <a href="https://pad.carpentries.org/r-workshop">link</a>
+
+<br>
+
+<iframe src="https://discord.com/widget?id=808365000833237022&theme=dark" width="700" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
 </p>
 
 {% comment %}
@@ -223,11 +207,8 @@ Display the contact email address set in the configuration file.
 </p>
 
 <p id="links">
-  <strong>Links to the lesson materials</strong>:  
-<ul>
- <li>Wednesday morning: <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Carpentry lesson on spreadsheets</a> </li>
- <li>Thursday and Friday: <a href="https://scienceparkstudygroup.github.io/r-lesson-based-on-ohi-data-training/">Home-made lesson "Open Science with R"</a> </li>
-</ul>
+  <strong>Link to the lesson materials</strong>:  
+<a href="https://carpentries-incubator.github.io/open-science-with-r/">Open Science with R</a> 
 </p>
 
 
