@@ -140,6 +140,24 @@ special instructions.
 <br>
 </ul>
 
+
+SCHEDULE
+
+Show the workshop's schedule.  Edit the items and times in the table
+to match your plans.  You may also want to change 'Day 1' and 'Day
+2' to be actual dates or days of the week.
+{% endcomment %}
+<h2 id="schedule">Schedule</h2>
+
+{% if page.carpentry == "swc" %}
+{% include sc/schedule.html %}
+{% elsif page.carpentry == "dc" %}
+{% include dc/schedule.html %}
+{% elsif page.carpentry == "lc" %}
+{% include lc/schedule.html %}
+{% endif %}
+
+
 <p id="discord">
   <strong>Discord server:</strong> We will use Discord to manage questions, general announcements and to match helpers with learners.   
   Please install the Discord application on your laptol/computer. The invite link to the server can be found under this <a href="https://discord.gg/C4cUZ95fbQ">link</a>  
@@ -218,6 +236,7 @@ SURVEYS - DO NO EDIT SURVEY LINKS
 <hr/>
 <br>
 {% comment %}
+
 SCHEDULE
 
 Show the workshop's schedule.  Edit the items and times in the table
