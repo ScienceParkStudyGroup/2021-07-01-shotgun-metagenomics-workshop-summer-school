@@ -5,16 +5,16 @@ venue: "Data processing and visualization for metagenomics"            # brief n
 address: "Online, Amsterdam UTC+1 (see Zoom links)"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "NL"                     # lowercase two-letter ISO country code such as "fr" 
 language: "English"               # lowercase two-letter ISO language code such as "fr"
-latlng: ""      # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "1-2 July 2021"      # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+latlng: ""                        # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" 
+humandate: "1-2 July 2021"        # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:30 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-07-01             # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-07-02               # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Marc Galland<sup>1</sup>", "Anouk Zancarini<sup>1</sup>"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Stacy Shinneman<sup>2</sup>"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["m.galland@uva.nl"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
-eventbrite: ""          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+helper: ["Stacy Shinneman<sup>2</sup>"]     
+email: ["m.galland@uva.nl"]       # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+collaborative_notes:              # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+eventbrite: ""                    # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -23,25 +23,6 @@ eventbrite: ""          # optional: alphanumeric key for Eventbrite registration
 <br>
 <br>
 <h1 id="general"><center>Data processing and visualization for metagenomics.</center><br></h1>
-
-
-{% comment %}
-EVENTBRITE
-
-This block includes the Eventbrite registration widget if
-'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
-displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.fr/e/data-processing-and-visualization-for-metagenomics-tickets-157639607309"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
-{% endif %}
 
 
 <h2 id="general">General Information</h2>
@@ -103,8 +84,8 @@ address.
   <strong>Zoom links:</strong> the workshop will be fully online:
 </p>
 <ul>
-  <li>Monday 21 June 2021 from 9:30 to 17:00:  <a href="https://uva-live.zoom.us/j/85459905823">Zoom link day 1</a></li>
-  <li>Tuesday 22 June 2021 from 9:30 to 17:00: <a href="https://uva-live.zoom.us/j/82752578788">Zoom link day 2</a></li>
+  <li>Thursday 01 July 2021 from 9:30 to 17:00:  <a href="https://uva-live.zoom.us/j/85879997842">Zoom link day 1</a></li>
+  <li>Friday 02 July 2021 from 9:30 to 17:00: <a href="https://uva-live.zoom.us/j/81085815273">Zoom link day 2</a></li>
 <br>
 </ul>
 
